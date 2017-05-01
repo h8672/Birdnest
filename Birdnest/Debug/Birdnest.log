@@ -1,0 +1,18 @@
+﻿  keycalls.cpp
+  graphics.cpp
+d:\birdnestss\birdnest\birdnest\graphics.cpp(30): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(31): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(32): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(33): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(34): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(35): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(36): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(37): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(130): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(165): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(166): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(167): warning C4010: single-line comment contains line-continuation character
+d:\birdnestss\birdnest\birdnest\graphics.cpp(168): warning C4010: single-line comment contains line-continuation character
+  Generating Code...
+  Birdnest.vcxproj -> D:\Birdnestss\Birdnest\Debug\Birdnest.exe
+  Birdnest.vcxproj -> D:\Birdnestss\Birdnest\Debug\Birdnest.pdb (Full PDB)

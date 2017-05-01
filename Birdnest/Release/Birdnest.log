@@ -1,0 +1,2 @@
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : fatal error LNK1104: cannot open file 'D:\Birdnestss\Birdnest\Release\Birdnest.exe'

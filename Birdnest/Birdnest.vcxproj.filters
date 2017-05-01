@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphic headers">
+      <UniqueIdentifier>{ac40eaea-8440-424e-952e-02a5e957c5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic sources">
+      <UniqueIdentifier>{99bcc890-498e-4a11-af30-cd1f7747b62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game headers">
+      <UniqueIdentifier>{d5f9acc7-7416-4ba5-aeba-7dd45795f094}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Game sources">
+      <UniqueIdentifier>{ec7436d9-7cc2-4a7d-ac6b-95303b6fb8ca}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e1bf5de1-7567-42e0-a432-0cd63bca483a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{a584e0f7-d65c-4776-9721-3d4923173406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{6c6b8f9c-9025-4852-a5c0-96529fe34b28}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\graphic\camera.cpp">
+      <Filter>Graphic sources</Filter>
+    </ClCompile>
+    <ClCompile Include="include\graphic\mesh.cpp">
+      <Filter>Graphic sources</Filter>
+    </ClCompile>
+    <ClCompile Include="include\graphic\model.cpp">
+      <Filter>Graphic sources</Filter>
+    </ClCompile>
+    <ClCompile Include="include\graphic\shader.cpp">
+      <Filter>Graphic sources</Filter>
+    </ClCompile>
+    <ClCompile Include="include\graphic\text.cpp">
+      <Filter>Graphic sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gameengine.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\keycalls.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\lasku.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\settings.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\filereader.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\3Dvertex.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="shaders\3Dfragment.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="shaders\lightfragment.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+    <Text Include="shaders\lightvertex.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\textvertex.txt">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\textfragment.txt">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\graphic\camera.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphic\mesh.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphic\model.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphic\modellist.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphic\shader.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\graphic\text.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameengine.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menu.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filereader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\includes.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\keycalls.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lasku.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\settings.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="materiallist.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stringslist.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Graphic headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+#version 330 core
+in vec2 TextCoords;
+out vec4 color;
+
+uniform sampler2D ourTexture;
+uniform vec4 Color;
+uniform vec4 BGColor;
+
+void main()
+{    
+vec4 texture1 = texture(ourTexture, TexCoord);
+vec4 sampled = vec4(1.0f, 1.0f, 1.0f, texture1.r);
+//Text
+if(texture1.r <= 0.5f){
+	color = vec4(textColor) / sampled;
+}
+//Text border
+else if(texture1.r > 0.5f && texture1.r < 1.0f){
+	color = vec4(textBGColor) * sampled * vec4(0,0,0,1);
+}
+//Text background
+else color = vec4(textBGColor) * sampled;
+
+
+}  
